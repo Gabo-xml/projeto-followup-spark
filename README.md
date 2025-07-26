@@ -4,10 +4,10 @@ Este projeto realiza o processamento, análise e previsão de entregas de pedido
 
 📁 Pastas
 Projeto Spark/
-- Data/ # Arquivos CSV e Parquet
-- PySpark/ # Scripts com formulas em PySpark, aplicação dos modelos e dashboards
-- Artifacts/ # (opcional) libs de suporte
-- Models/ # Modelo treinado - Random Forest (joblib)
+- Data/ -> Arquivos CSV e Parquet
+- PySpark/ -> Scripts com formulas em PySpark, aplicação dos modelos e dashboards
+- Artifacts/ -> (opcional) libs de suporte
+- Models/ -> Modelo treinado - Random Forest (joblib)
 
 ⚠ Requisitos
 - Python
