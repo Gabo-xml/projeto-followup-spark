@@ -1,8 +1,10 @@
-import os
+# USUÁRIOS DE WINDOWS: É NECESSÁRIO O DOWNLOAD DO WINUTILS
+# DEFINA OS AMBIENTES LOCAIS DO AMBIENTE NA SUA MÁQUINA/DIRETÓRIO
 
-os.environ['HADOOP_HOME'] = r'C:\hadoop'
-os.environ['PATH'] += r';C:\hadoop\bin'
-os.environ['JAVA_HOME'] = r'C:\Program Files\Zulu\zulu-21'
+#import os
+#os.environ['HADOOP_HOME'] = r'C:\hadoop'
+#os.environ['PATH'] += r';C:\hadoop\bin'
+#os.environ['JAVA_HOME'] = r'C:\Program Files\Zulu\zulu-21'
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, when
